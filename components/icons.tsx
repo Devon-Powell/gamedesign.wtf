@@ -1,7 +1,7 @@
 import {
-  Code,
   LucideProps,
   Moon,
+  Rotate3d,
   SunMedium,
   Twitter,
   type Icon as LucideIcon,
@@ -13,7 +13,7 @@ export const Icons = {
   sun: SunMedium,
   moon: Moon,
   twitter: Twitter,
-  logo: (props: LucideProps) => <Code {...props} />,
+  logo: (props: LucideProps) => <Rotate3d {...props} />,
   gitHub: (props: LucideProps) => (
     <svg viewBox="0 0 438.549 438.549" {...props}>
       <path
