@@ -1,13 +1,33 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Next.js",
+  name: "gamedesign.wtf",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "A public resource created with the intent of deconstructing and evaluating video game systems",
   mainNav: [
     {
       title: "Home",
       href: "/",
+    },
+    {
+      title: "Games",
+      href: "/games",
+    },
+    {
+      title: "Systems",
+      href: "/systems",
+    },
+    {
+      title: "Notifications",
+      href: "/notifications",
+    },
+    {
+      title: "Blog",
+      href: "/blog",
+    },
+    {
+      title: "About",
+      href: "/about",
     },
   ],
   links: {
